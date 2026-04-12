@@ -5,12 +5,12 @@ Mi smo se odločili, da bomo naredili model, ki bo napodoval zmagovalce prihodnj
 #### 1.1 Random forest
 <img width="290" height="165" alt="image" src="https://github.com/user-attachments/assets/19da17a1-1fe2-48d1-a5e3-5c696da8d4cc" />
 
-Random forest  napove true negative vrednost 67,40% časa in true positive vrednost 67,5% vseh primerov.
+Random forest je metoda strojnega učenje kjer med učenjem kreira več oddločtivenih dreves med učenjom. Napove true negative vrednost 67,40% časa in true positive vrednost 67,5% vseh primerov.
 
 #### 1.2 Logistic Regression
 <img width="293" height="156" alt="image" src="https://github.com/user-attachments/assets/fe72241d-7a89-4c28-93d6-e353b447797b" />
 
-Logistic Regression  napove true negative vrednost 70,48% časa in true positive vrednost 70,49% vseh primerov.
+Logistic Regression je metoda strojnega učenje kjer če je nekaj true ali false. Napove true negative vrednost 70,48% časa in true positive vrednost 70,49% vseh primerov.
 
 #### 1.3 Evaluation results
 <img width="346" height="73" alt="image" src="https://github.com/user-attachments/assets/7d1af18c-9a91-4369-8b05-6f30bfc824dd" />
