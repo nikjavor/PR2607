@@ -17,17 +17,22 @@ Logistic Regression je metoda  kjer proba napovedati v katero izmed devh kategor
 
 Neural network je metoda, ki ima input in output vmes pa je več skritih plasti z različnimi utežim ki probajo napovedati output. Napove true negative vrednost 70,80% časa in true positive vrednost 71,04% vseh primerov.
 
-#### 1.4 Evaluation results
-<img width="352" height="96" alt="image" src="https://github.com/user-attachments/assets/13310e69-2c9b-480b-961c-5331ab25e775" />
+#### 1.4 Gradient boosting(xgboost)
+<img width="293" height="160" alt="image" src="https://github.com/user-attachments/assets/7ffd64b8-ead7-4013-9515-d0201164e9de" />
 
-Kot smo že videl v Confusion matrix obeh modelov, nam zdaj še AUC in klasifikacijska točnost povesta, da je Neural network najboljši pri klasifikaciji in potem sledita Logistic Regression in Random forest.
+Napove true negative vrednost 70,61% časa in true positive vrednost 71,62% vseh primerov.
+
+#### 1.5 Evaluation results
+<img width="350" height="119" alt="image" src="https://github.com/user-attachments/assets/bd6b46bf-823f-4940-a048-a35f0ef2af0c" />
+
+Kot smo že videl v Confusion matrix obeh modelov, nam zdaj še AUC in klasifikacijska točnost povesta, da je Neural network najboljši pri klasifikaciji in potem sledita Gradient boosting(xgboost) za njim pa sta Logistic Regression in Random forest.
 
 ### 2. ROC
-<img width="1634" height="986" alt="image" src="https://github.com/user-attachments/assets/723c54f4-5f4b-4509-8d57-0f5203951c21" />
+<img width="1920" height="1017" alt="image" src="https://github.com/user-attachments/assets/8eb4efef-2ff7-40c3-8026-64d5782f322e" />
 
 Ugotovitve iz prejšne točke še podane vizualno kjer oranžna je Logistic Regression, zelena Random forest in vijolična Neural network.
 
 ### 3. Lift curve
-<img width="541" height="461" alt="image" src="https://github.com/user-attachments/assets/516443c3-d552-4a3b-8748-287355597af6" />
+<img width="1919" height="1011" alt="image" src="https://github.com/user-attachments/assets/cc1d03e5-d774-4bd5-b239-5af433775869" />
 
 Prikazuje koliko uspešni so modeli v primerjavi z naključnim ugibanjem.
