@@ -12,12 +12,18 @@ Random forest je metoda  kjer med učenjem se kreira več oddločtivenih dreves 
 
 Logistic Regression je metoda  kjer proba napovedati v katero izmed devh kategorij spada. Napove true negative vrednost 70,48% časa in true positive vrednost 70,49% vseh primerov.
 
-#### 1.3 Evaluation results
-<img width="346" height="73" alt="image" src="https://github.com/user-attachments/assets/7d1af18c-9a91-4369-8b05-6f30bfc824dd" />
+#### 1.3 Neural network
+<img width="288" height="155" alt="image" src="https://github.com/user-attachments/assets/0f85730a-7fa0-4845-85b8-0a4d3e2437d0" />
 
-Kot smo že videl v Confusion matrix obeh modelov, nam zdaj še AUC in klasifikacijska točnost povesta, da je Logistic Regression boljši od Random forest pri klasifikaciji.
+Neural network je metoda, ki ima input in output vmes pa je več skritih plasti z različnimi utežim ki probajo napovedati output. Napove true negative vrednost 70,80% časa in true positive vrednost 71,04% vseh primerov.
+
+#### 1.4 Evaluation results
+<img width="352" height="96" alt="image" src="https://github.com/user-attachments/assets/13310e69-2c9b-480b-961c-5331ab25e775" />
+
+Kot smo že videl v Confusion matrix obeh modelov, nam zdaj še AUC in klasifikacijska točnost povesta, da je Neural network najboljši pri klasifikaciji in potem sledita Logistic Regression in Random forest.
 
 ### 2. ROC
-<img width="421" height="446" alt="image" src="https://github.com/user-attachments/assets/3f095a51-8820-4509-b045-7ddcf05b10f9" />
+<img width="1634" height="986" alt="image" src="https://github.com/user-attachments/assets/723c54f4-5f4b-4509-8d57-0f5203951c21" />
 
-Ugotovitve iz prejšne točke še podane vizualno kjer oranžna je Logistic Regression in zelena Random forest.
+
+Ugotovitve iz prejšne točke še podane vizualno kjer oranžna je Logistic Regression, zelena Random forest in vijolična Neural network.
