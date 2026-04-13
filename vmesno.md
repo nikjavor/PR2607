@@ -25,5 +25,9 @@ Kot smo že videl v Confusion matrix obeh modelov, nam zdaj še AUC in klasifika
 ### 2. ROC
 <img width="1634" height="986" alt="image" src="https://github.com/user-attachments/assets/723c54f4-5f4b-4509-8d57-0f5203951c21" />
 
-
 Ugotovitve iz prejšne točke še podane vizualno kjer oranžna je Logistic Regression, zelena Random forest in vijolična Neural network.
+
+### 3. Lift curve
+<img width="541" height="461" alt="image" src="https://github.com/user-attachments/assets/516443c3-d552-4a3b-8748-287355597af6" />
+
+Prikazuje koliko uspešni so modeli v primerjavi z naključnim ugibanjem.
