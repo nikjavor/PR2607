@@ -38,3 +38,14 @@ Ugotovitve iz prejšne točke še podane vizualno kjer oranžna je Logistic Regr
 <img width="1919" height="1011" alt="image" src="https://github.com/user-attachments/assets/cc1d03e5-d774-4bd5-b239-5af433775869" />
 
 Lift krivulja prikazuje, kolikokrat je naš model uspešnejši od naključnega ugibanja (baseline).
+
+### 4. Explain model
+
+Je model. ki prikazuje kako podatki vplivajo na odločanje. Modra barva prikazuja vrednosti, ki zmanjšujejo verjetnost p1 za zmago, redeča barva pa prikazuje ravno obratno.
+
+#### 4.1 Neural network
+<img width="1920" height="1011" alt="image" src="https://github.com/user-attachments/assets/8db7fe1a-313e-40ad-99e1-f0c6a0e7fb7e" />
+
+#### 4.2 Gradient boosting(xgboost)
+<img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/68b855b2-246a-45ce-a3b4-7d2befd30762" />
+
