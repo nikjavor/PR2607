@@ -49,3 +49,7 @@ Je model. ki prikazuje kako podatki vplivajo na odločanje. Modra barva prikazuj
 #### 4.2 Gradient boosting(xgboost)
 <img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/68b855b2-246a-45ce-a3b4-7d2befd30762" />
 
+#### 4.3 Logistic Regression
+<img width="1920" height="995" alt="image" src="https://github.com/user-attachments/assets/915bf67a-b938-4ef9-88c8-5fde8c917569" />
+
+
