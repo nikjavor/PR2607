@@ -7,24 +7,24 @@
 
 ## 1. Uvod
 
-Cilj projekta je izdelati model, ki na podlagi podatkov pred začetkom teniške tekme napove zmagovalca ATP dvoboja. Problem smo obravnavali kot binarno klasifikacijo: za vsako tekmo napovedujemo, ali bo zmagal igralec `p1` ali igralec `p2`.
+Cilj projekta je izdelati model, ki na podlagi podatkov pred začetkom teniške tekme napove zmagovalca dvobojov na turnirjih ATP. Problem smo obravnavali kot binarno klasifikacijo: za vsako tekmo napovedujemo, ali bo zmagal igralec `p1` ali igralec `p2`.
 
 Projekt smo razdelili na tri glavne dele:
 
-1. priprava in analiza podatkov,
-2. izdelava značilk,
-3. treniranje in primerjava modelov.
+1. Priprava in analiza podatkov,
+2. Izdelava značilk,
+3. Treniranje in primerjava modelov.
 
 Pri učenju smo posebej pazili, da model ne uporablja podatkov, ki so znani šele po začetku ali koncu tekme, saj bi to povzročilo uhajanje informacij.
 
 
 ## 2. Podatki
 
-Podatke smo pridobili iz repozitorija [JeffSackmann/tennis_atp](https://github.com/JeffSackmann/tennis_atp). Uporabili smo datoteke z ATP tekmami od leta 2000 do 2024. Podatki za leti 2025 in 2026 so bili predvideni kot dodaten preizkus modela na novejših podatkih.
+Podatke smo pridobili iz repozitorija [JeffSackmann/tennis_atp](https://github.com/JeffSackmann/tennis_atp). Uporabili smo datoteke z ATP tekmami od leta 2000 do 2024. Podatki zadnjih dveh ATP sezon (2025, 2026) so bili predvideni kot dodaten preizkus modela na novejših podatkih.
 
 Vsaka vrstica predstavlja eno tekmo in vsebuje podatke o turnirju, igralni površini, datumu, zmagovalcu, poražencu, rankingu, starosti, višini in drugih značilkah igralcev.
 
-V model nismo vključili statistik iz same tekme, kot so:
+V model nismo vključili podatkov o statistiki, ki nastanejo po začetku tekme, kot so:
 
 ```text
 score, minutes, w_ace, l_ace, w_df, l_df, w_svpt, l_svpt, ...
