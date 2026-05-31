@@ -72,7 +72,6 @@ V raziskovalni analizi smo pregledali osnovne lastnosti podatkov:
 
 - vpliv razlike v rankingu na verjetnost zmage favorita.
 
-**[VSTAVI GRAF: manjkajoče vrednosti pomembnih stolpcev]**
 
 
 Bolje rangirani igralec je v celotnem datasetu zmagal v **63,50 %** tekem. To je močan signal, ki hkrati določa zgornjo mejo preprostega baseline modela "zmaga favorit po rankingu". Delež zmag favorita se nekoliko razlikuje po površinah:
