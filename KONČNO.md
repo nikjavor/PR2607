@@ -30,7 +30,7 @@ Po čiščenju je v končnem datasetu ostalo **68.779 tekem**. Razreda sta bila 
 
 ## 3. Analiza podatkov
 
-Osnovna analiza je pokazala, da je ranking igralcev močan napovedni signal. Bolje rangirani igralec je v celotnem datasetu zmagal v **63,50 %** tekem. Ta rezultat predstavlja tudi pomemben baseline model, s katerim smo primerjali naprednejše pristope.
+Osnovna analiza je pokazala, da je ranking igralcev močan napovedni signal. Bolje rangirani igralec je v celotnem datasetu zmagal v **63,50 %** tekem. Ta rezultat predstavlja tudi pomemben izhodiščni model, s katerim smo primerjali naprednejše pristope.
 
 Delež zmag favorita se med igralnimi površinami ni zelo razlikoval:
 
@@ -82,7 +82,7 @@ Med zgodovinske značilke smo vključili:
 - `surface_h2h_winrate_diff`
 - `last_h2h_result`
 
-Elo in surface Elo sta se izkazala kot najmočnejša signala. Korelacija značilke `elo_diff` s ciljno spremenljivko je znašala **0,391**, korelacija `surface_elo_diff` pa **0,375**. Ko je imel `p1` višji Elo od `p2`, je zmagal v **65,85 %** primerov, ko je imel nižji Elo, pa le v **33,75 %** primerov.
+Elo in surface Elo sta se izkazala kot najmočnejša signala. Korelacija značilke `elo_diff` s ciljno spremenljivko je znašala **0,391**, korelacija `surface_elo_diff` pa **0,375**. Ko je imel `p1` višji Elo od `p2`, je zmagal v **65,85 %** primerov, ko je imel nižji Elo, pa v le **33,75 %** primerov.
 
 Značilke head-to-head so bile manj uporabne, saj ima le **45,9 %** tekem vsaj en predhodni medsebojni dvoboj, samo **30,7 %** tekem pa predhodni dvoboj na isti površini.
 
@@ -113,7 +113,7 @@ Modele smo vrednotili z metrikami **accuracy**, **AUC** in **log loss**.
 
 ## 6. Rezultati
 
-Na testnem obdobju 2023–2024 so bili rezultati naslednji:
+V testnem obdobju 2023–2024 so bili rezultati naslednji:
 
 | Model | Accuracy | AUC | Log loss |
 |---|---:|---:|---:|
@@ -164,7 +164,7 @@ Dodatna omejitev je, da imajo mladi igralci ali igralci z malo preteklimi tekmam
 
 ## 9. Zaključek
 
-V projektu smo izdelali model za napovedovanje zmagovalcev ATP teniških tekem. Najpomembnejša ugotovitev je, da zgodovinske značilke bistveno izboljšajo napovedno moč modela v primerjavi z uporabo samo osnovnih podatkov, kot je ranking.
+V projektu smo izdelali model za napovedovanje zmagovalcev ATP teniških tekem. Najpomembnejša ugotovitev je, da zgodovinske značilke bistveno izboljšajo napovedno moč modela v primerjavi z uporabo le osnovnih podatkov, kot je ranking.
 
 Najboljši model je bil **XGBoost z zgodovinskimi značilkami**, ki je dosegel najvišji AUC in najnižji log loss. Kljub temu so bile razlike med modeli z zgodovinskimi značilkami majhne, kar kaže, da je kakovost značilk pomembnejša od izbire kompleksnega modela.
 
